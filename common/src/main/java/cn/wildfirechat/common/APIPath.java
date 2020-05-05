@@ -19,6 +19,9 @@ public interface APIPath {
     String Create_User = "/admin/user/create";
     String Destroy_User = "/admin/user/destroy";
     String Create_Robot = "/admin/robot/create";
+    String CreateOrUpdate_Device = "/admin/device/create";
+    String Get_Device = "/admin/device/get";
+    String Get_User_Devices = "/admin/device/user_devices";
     String User_Get_Token = "/admin/user/get_token";
     String User_Update_Block_Status = "/admin/user/update_block_status";
     String User_Get_Info = "/admin/user/get_info";
@@ -36,6 +39,7 @@ public interface APIPath {
 
     String Msg_Send = "/admin/message/send";
     String Msg_Recall = "/admin/message/recall";
+    String Msg_Delete = "/admin/message/delete";
     String Msg_Broadcast = "/admin/message/broadcast";
     String Msg_Multicast = "/admin/message/multicast";
 
